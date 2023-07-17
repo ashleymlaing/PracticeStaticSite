@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+}
+
+body {
+
+}
+
+#container {
+    width: 95%;
+    border: 1px solid black;
+    margin: 20px auto;
+    background-color: darksalmon;
+}
