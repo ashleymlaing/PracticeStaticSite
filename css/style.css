@@ -7,6 +7,32 @@ section {
     height: 500px;
 }
 
+table {
+    border: 1px solid black;
+    width: 45%;
+}
+th,td {
+    border: 1px solid black;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+}
+
+th {
+    height: 20px;
+}
+tbody {
+    min-height: 50px;
+}
+
+.second{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
 .second, .fourth {
     
     background-color: #DBB3B1;

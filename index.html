@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashley Static Site</title>
     <link rel="stylesheet" href="css/style.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.7.0.js"
+			  integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+			  crossorigin="anonymous"></script>
+		
 </head>
 <body>
     <div id="container">
@@ -14,6 +19,34 @@
             <p>This will be me making a single page website with html, css, javascript</p>
         </header>
         <section class="second">
+            <table>
+                <thead>
+                    <th></th>
+                    <th>Item</th>
+                    <th>Pirority</th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr></tr>
+                </tbody>
+            </table>
+            <form action="">
+                <h2>Add To Do Item:</h2>
+                <input type="text" class="item" placeholder="Input To Do Item">
+                <div>
+                    <input type="radio" id="high" name="pirority" value="high">
+                <label for="high">High</label>
+                </div>
+                <div>
+                    <input type="radio" id="med" name="pirority" value="medium">
+                <label for="med">Medium</label>
+                </div>
+                <div>
+                    <input type="radio" id="low" name="pirority" value="low">
+                <label for="low">Low</label>
+                </div>
+                <button class="addItem">Add to List</button>
+            </form>
         </section>
         <section class="third"></section>
         <section class="fourth"></section>
